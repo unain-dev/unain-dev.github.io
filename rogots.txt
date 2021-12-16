@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unain-dev.github.io//sitemap.xml
