@@ -18,65 +18,65 @@ categories: Spring
 
    - `.../config/`에 생성함.
 
-   ```
-   	@Component
-   	@ConfigurationProperties("api")
-   	public class KeyConfig implements ApplicationRunner{
+     ```
+     	@Component
+     	@ConfigurationProperties("api")
+     	public class KeyConfig implements ApplicationRunner{
 
-   		private String key;
-   		private String GEO_API_KEY;
-   		private String KAKAO_MAP_API_KEY;
-   		private String consumer_key;
-   		private String consumer_secret;
+     		private String key;
+     		private String GEO_API_KEY;
+     		private String KAKAO_MAP_API_KEY;
+     		private String consumer_key;
+     		private String consumer_secret;
 
-   		public String getGEO_API_KEY() {
-   			return GEO_API_KEY;
-   		}
+     		public String getGEO_API_KEY() {
+     			return GEO_API_KEY;
+     		}
 
-   		public void setGEO_API_KEY(String gEO_API_KEY) {
-   			GEO_API_KEY = gEO_API_KEY;
-   		}
+     		public void setGEO_API_KEY(String gEO_API_KEY) {
+     			GEO_API_KEY = gEO_API_KEY;
+     		}
 
-   		public String getKAKAO_MAP_API_KEY() {
-   			return KAKAO_MAP_API_KEY;
-   		}
+     		public String getKAKAO_MAP_API_KEY() {
+     			return KAKAO_MAP_API_KEY;
+     		}
 
-   		public void setKAKAO_MAP_API_KEY(String kAKAO_MAP_API_KEY) {
-   			KAKAO_MAP_API_KEY = kAKAO_MAP_API_KEY;
-   		}
+     		public void setKAKAO_MAP_API_KEY(String kAKAO_MAP_API_KEY) {
+     			KAKAO_MAP_API_KEY = kAKAO_MAP_API_KEY;
+     		}
 
-   		public String getConsumer_key() {
-   			return consumer_key;
-   		}
+     		public String getConsumer_key() {
+     			return consumer_key;
+     		}
 
-   		public void setConsumer_key(String consumer_key) {
-   			this.consumer_key = consumer_key;
-   		}
+     		public void setConsumer_key(String consumer_key) {
+     			this.consumer_key = consumer_key;
+     		}
 
-   		public String getConsumer_secret() {
-   			return consumer_secret;
-   		}
+     		public String getConsumer_secret() {
+     			return consumer_secret;
+     		}
 
-   		public void setConsumer_secret(String consumer_secret) {
-   			this.consumer_secret = consumer_secret;
-   		}
+     		public void setConsumer_secret(String consumer_secret) {
+     			this.consumer_secret = consumer_secret;
+     		}
 
-   		@Override
-   		public void run(ApplicationArguments args) throws Exception {
-   			// TODO Auto-generated method stub
-   	//		System.out.println(getKey());
-   		}
+     		@Override
+     		public void run(ApplicationArguments args) throws Exception {
+     			// TODO Auto-generated method stub
+     	//		System.out.println(getKey());
+     		}
 
-   		public String getKey() {
-   			return key;
-   		}
+     		public String getKey() {
+     			return key;
+     		}
 
-   		public void setKey(String key) {
-   			this.key = key;
-   		}
+     		public void setKey(String key) {
+     			this.key = key;
+     		}
 
-   	}
-   ```
+     	}
+     ```
 
 ---
 
