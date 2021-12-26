@@ -2,7 +2,7 @@
 layout: post
 title: "useState setState 일부만 상태 업데이트하기"
 date: 2021-12-26 20:34:43 +0900
-categories: ES6
+categories: React.js
 ---
 
 ### useState setState 일부만 상태 업데이트하기
