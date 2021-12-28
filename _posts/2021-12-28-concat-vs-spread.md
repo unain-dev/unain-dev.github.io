@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "concat vs spread"
-date: 2021-12-26 20:34:43 +0900
+date: 2021-12-28 17:56:43 +0900
 categories: ES6
 ---
 
