@@ -5,7 +5,7 @@ date: 2021-12-26 20:34:43 +0900
 categories: ES6
 ---
 
-### spread operator vs concat in merge to array
+### concat vs spread operator in merge to array
 
 - many items에 single item을 합칠 때 : concat 사용
 - single item에 many items를 합칠 때 : spread operator 사용
