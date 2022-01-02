@@ -2,7 +2,7 @@
 layout: post
 title: "[CS] 자료구조"
 # date: 2021-12-10 12:34:43 +0900
-categories: 자료구조
+categories: CS
 ---
 
 - [기술면접 대비 CS 질문 모음](https://kjsu0209.github.io/Tech-Interview/data-structure/ds){:target="_blank"}
