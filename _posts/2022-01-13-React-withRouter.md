@@ -11,3 +11,4 @@ categories: React
   `import { withRouter } from 'react-router-dom';`
 - 사용
   `const ShowPageInfo = withRouter(({ match, location }) => { return <div>현재 위치: {location.pathname}</div>;});`
+- [참고자료](https://react-router.vlpt.us/1/05.html)
