@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React withRouter"
+title: "React withRouter, history 사용"
 # date: 2021-12-10 12:34:43 +0900
 categories: React
 ---
