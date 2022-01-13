@@ -20,11 +20,11 @@ categories: React.js
 - Selector : store의 상태 값을 가져올 때 사용
   > vuex의 getter?
 
-### Redux 업데이트 순서
+### ⭐ Redux 업데이트 순서
 
 ![image](https://user-images.githubusercontent.com/28949166/149377508-71f09364-2356-4b5a-b239-7beb59a5190f.png)
 
-- ⭐[Redux(리덕스)란? (상태 관리 라이브러리)](https://hanamon.kr/redux%EB%9E%80-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/)
+- [Redux(리덕스)란? (상태 관리 라이브러리)](https://hanamon.kr/redux%EB%9E%80-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/)
 
 1. user의 행동메 맞는 action 객체(정확하게는 action 객체를 리턴하는 action 생성함수)가 dispatch() 메소드에 전달된다.
 2. dispatch(action)을 통해 reducer가 호출된다.
@@ -105,7 +105,7 @@ categories: React.js
 - ⭐[React Immutable](https://velopert.com/3486)
 - ⭐[Redux(리덕스)란? (상태 관리 라이브러리)](https://hanamon.kr/redux%EB%9E%80-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/)\
 - [리덕스는 무엇이고, 왜 사용하는가?](https://velog.io/@youthfulhps/What-is-Redux-and-why-use-it)
-- [Redux 실습](https://react.vlpt.us/redux/03-prepare.html)
+- ⭐[Redux 실습](https://react.vlpt.us/redux/03-prepare.html)
 - [로그인에서의 Redux 활용](https://joonganglib.tistory.com/m/11)
 
 ```
