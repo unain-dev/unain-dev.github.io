@@ -2,7 +2,7 @@
 layout: post
 title: "React Redux 참고자료"
 # date: 2021-12-10 12:34:43 +0900
-categories: React
+categories: React.js
 ---
 
 ## Redux
