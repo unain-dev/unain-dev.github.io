@@ -1,11 +1,25 @@
 ---
 layout: post
-title: "React Redux 참고자료"
+title: "React Redux 기초"
 # date: 2021-12-10 12:34:43 +0900
 categories: React.js
 ---
 
-## Redux
+## Redux 설치 패키지
+
+- redux toolkit
+
+  ```
+  npm install @reduxjs/toolkit
+
+  ```
+
+- redux 보조 패키지
+  ```
+  npm install react-redux
+  ```
+
+## Redux 기초개념
 
 ![image](https://user-images.githubusercontent.com/28949166/149366231-1267a040-b385-4dde-a648-ded4bfd78f6c.png)
 
@@ -20,7 +34,7 @@ categories: React.js
 - Selector : store의 상태 값을 가져올 때 사용
   > vuex의 getter?
 
-### ⭐ Redux 업데이트 순서
+### ⭐ Redux 동작
 
 ![image](https://user-images.githubusercontent.com/28949166/149377508-71f09364-2356-4b5a-b239-7beb59a5190f.png)
 
@@ -107,7 +121,4 @@ categories: React.js
 - [리덕스는 무엇이고, 왜 사용하는가?](https://velog.io/@youthfulhps/What-is-Redux-and-why-use-it)
 - ⭐[Redux 실습](https://react.vlpt.us/redux/03-prepare.html)
 - [로그인에서의 Redux 활용](https://joonganglib.tistory.com/m/11)
-
-```
-
-```
+- ⭐[간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
