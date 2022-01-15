@@ -5,7 +5,7 @@ title: "React Redux 예제(로그인)"
 categories: React.js
 ---
 
-- [github source](https://github.com/unain-dev/react-base-practice/tree/main/login-practice)
+- [github source](https://github.com/unain-dev/react-base-practice/tree/main/login-practice){:target="\_blank"}
 
 ### Redux 설치
 
@@ -209,9 +209,9 @@ categories: React.js
 
 > dispatch에 type만 파라미터로 전달해 action 생성함수를 거치지 않고 그냥 reducer에서 바로 바뀐 값을 return시켜서 state를 변환.(맞는 방법인지 확인 필요)
 
-- [간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+- [간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0){:target="\_blank"}
 
 ## 참고
 
-- 방법 1 : [Redux 실습](https://react.vlpt.us/redux/03-prepare.html)
-- 방법 2 : [간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+- 방법 1 : [Redux 실습](https://react.vlpt.us/redux/03-prepare.html){:target="\_blank"}
+- 방법 2 : [간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0){:target="\_blank"}
