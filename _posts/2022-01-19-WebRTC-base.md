@@ -2,7 +2,7 @@
 layout: post
 title: "Web RTC 개념"
 # date: 2021-12-10 12:34:43 +0900
-categories: Web RTC
+categories: WebRTC
 ---
 
 ## Web RTC

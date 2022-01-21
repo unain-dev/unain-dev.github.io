@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "sessionStorage setItem 조회 안되는 이유"
-categories: React.js, ES6
+categories: React.js ES6
 ---
 
 ## sessionStorage

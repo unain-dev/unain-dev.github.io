@@ -2,7 +2,7 @@
 layout: post
 title: "Web RTC 참고자료 모음"
 # date: 2021-12-10 12:34:43 +0900
-categories: Web RTC
+categories: WebRTC
 ---
 
 ## Signalling
