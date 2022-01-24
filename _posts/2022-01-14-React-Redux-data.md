@@ -7,6 +7,12 @@ categories: React.js
 
 ## Redux 설치 패키지
 
+- redux install
+
+  ```
+  npm install redux
+  ```
+
 - redux toolkit
 
   ```
@@ -40,7 +46,7 @@ categories: React.js
 
 - [Redux(리덕스)란? (상태 관리 라이브러리)](https://hanamon.kr/redux%EB%9E%80-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/)
 
-1. user의 행동메 맞는 action 객체(정확하게는 action 객체를 리턴하는 action 생성함수)가 dispatch() 메소드에 전달된다.
+1. user의 행동에 맞는 action 객체(정확하게는 action 객체를 리턴하는 action 생성함수)가 dispatch() 메소드에 전달된다.
 2. dispatch(action)을 통해 reducer가 호출된다.
 3. reducer는 새로운 store를 생성하여 저장한다(갈아끼운다.)
 
@@ -121,4 +127,5 @@ categories: React.js
 - [리덕스는 무엇이고, 왜 사용하는가?](https://velog.io/@youthfulhps/What-is-Redux-and-why-use-it){:target="\_blank"}
 - ⭐[Redux 실습](https://react.vlpt.us/redux/03-prepare.html){:target="\_blank"}
 - [로그인에서의 Redux 활용](https://joonganglib.tistory.com/m/11){:target="\_blank"}
-- ⭐[간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0){:target="\_blank"}
+- ⭐⭐[간단한 예제를 통해 Redux를 이해하기](https://velog.io/@qf9ar8nv/%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-Redux%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0){:target="\_blank"}
+- ⭐⭐[Redux 공식문서](https://ko.redux.js.org/introduction/installation/){:target="\_blank"}
