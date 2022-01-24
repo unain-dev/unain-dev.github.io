@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "React 로그인 구현"
+title: "Vue.js 로그인 구현 사이클"
 # date: 2021-12-10 12:34:43 +0900
-categories: React.js
+categories: Vue.js
 ---
 
 ### 공통사항
