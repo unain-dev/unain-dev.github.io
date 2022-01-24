@@ -32,26 +32,26 @@ categories: React.js
 
 2. App.js(Route page)
 
-- 규칙
+   - 규칙
 
-  > <Route path="주소규칙" element={보여 줄 컴포넌트 JSX} />
+   > <Route path="주소규칙" element={보여 줄 컴포넌트 JSX} />
 
-- 예시
+   - 예시
 
-  ```javascript
-  import { Route, Routes } from "react-router-dom";
-  import About from "./pages/About";
-  import Home from "./pages/Home";
+     ```javascript
+     import { Route, Routes } from "react-router-dom";
+     import About from "./pages/About";
+     import Home from "./pages/Home";
 
-  const App = () => {
-    return (
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    );
-  };
-  ```
+     const App = () => {
+       return (
+         <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/about" element={<About />} />
+         </Routes>
+       );
+     };
+     ```
 
 ## 참고자료 출처
 
