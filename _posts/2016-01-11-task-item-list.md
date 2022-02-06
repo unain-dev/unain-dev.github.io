@@ -10,7 +10,7 @@ Source:
 
 ```markdown
 - [x] Eating
-- [ ] Walking
+- [x] Walking
   - [ ] Running
 - [ ] Sleeping
 ```
