@@ -5,7 +5,11 @@ title: "React axios 요청 시 헤더에 변수 넣어 보내기"
 categories: React.js
 ---
 
-## Path Variable(prams) vs Query Parameter(query string)
+## 사용하는 경우
+
+- BE에서 헤더에 jwtToken 등을 넣어서 보낼 것을 요구하는 경우 헤더에 감싸서 보내야한다.
+
+## axios 요청 시 헤더에 변수 넣어 보내는 방법
 
 - 비동기 통신 모듈
 
