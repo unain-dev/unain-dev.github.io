@@ -11,7 +11,7 @@ categories: React.js
 
 ## axios 요청 시 헤더에 변수 넣어 보내는 방법
 
-- 비동기 통신 모듈
+- 비동기 통신 모듈(GET)
 
   ```javascript
   async function booklogDetail(booklogSeq, header, success, fail) {
@@ -24,7 +24,21 @@ categories: React.js
 
   - 원래에는 axios.get(`URL`, params, header) 순으로, 3번째 파라미터가 헤더에 해당하지만 params가 없으면 header를 2번째 요소로 넣어야한다.(빈 요소를 2번째 파라미터로 넣으면 오류 발생)
 
+- 비동기 통신 요청 부(POST, PUT, DELETE)
+
+  ```javascript
+  async function setLikeBooklog(booklogSeq, header, success, fail) {
+    await api
+      .post(`/api/v1/booklogs/${booklogSeq}/like`, {}, header)
+      .then(success)
+      .catch(fail);
+  }
+  ```
+
+  - POST, PUT, DELETE는 GET과 달리, 요청 바디에 담기기 때문에 헤더를 전달하기 위해서는 axios.get(`URL`, params, header) 순으로, 3번째 파라미터로 헤더를 맞춰줘야 한다. 즉, 파라미터가 없으면 빈 값이라도 2번째 파라미터에 넣어야 동작 한다.
+
 - 비동기 통신 요청 부
+
   ```javascript
   booklogDetail(
     params.booklogSeq,
@@ -47,6 +61,7 @@ categories: React.js
     }
   );
   ```
+
   - 아래 부분에서 `Bearer `의 띄어쓰기를 빼면 동작 오류!
     ```javascript
     {
