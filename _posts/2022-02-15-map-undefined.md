@@ -29,4 +29,5 @@ categories: React.js
 
 ## 참고자료 출처
 
-- [문제상황 TypeError: Cannot read property 'map' of undefined](https://devbirdfeet.tistory.com/47){:target="\_blank"}
+- [문제상황> TypeError: Cannot read property 'map' of undefined](https://devbirdfeet.tistory.com/47){:target="\_blank"}
+- [오류해결> TypeError: Cannot read property 'map' of undefined](https://velog.io/@dum6894/%EC%98%A4%EB%A5%98%ED%95%B4%EA%B2%B0-TypeError-Cannot-read-property-map-of-undefined){:target="\_blank"}
