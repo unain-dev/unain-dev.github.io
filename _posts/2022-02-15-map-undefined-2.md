@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "핫한 독서 습관 형성 플랫폼 소개할게요!"
+title: "핫한 독서 습관 형성 플랫폼"
 # date: 2021-12-10 12:34:43 +0900
 categories: React.js
 ---
