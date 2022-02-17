@@ -7,6 +7,6 @@ categories: React.js
 
 ## 독서 습관 형성 플랫폼, 북적북적
 
-![logo](https://user-images.githubusercontent.com/28949166/154548568-5b8fe6b2-2a70-4d70-a168-e5108c0610a7.png)
+![image](https://user-images.githubusercontent.com/28949166/154557146-83cdb39d-efa5-44ff-b3a9-a43f881dba92.png)
 
 ## [북적북적](https://i6a305.p.ssafy.io/)
