@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React Error> Cannot read property 'map' of undefined"
+title: "React Error) Cannot read property 'map' of undefined"
 # date: 2021-12-10 12:34:43 +0900
 categories: React.js
 ---
