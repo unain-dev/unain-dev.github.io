@@ -6,6 +6,8 @@ The original purpose of this theme is to be a replacement of the default Jekyll 
 
 Please check out the [demo](https://ngzhio.github.io/jekyll-theme-hamilton/).
 
+
+
 | Skins | Displays |
 | ----- | -------- |
 | Daylight | ![screenshot](screenshot.png) |
