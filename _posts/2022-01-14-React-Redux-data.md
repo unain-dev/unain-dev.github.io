@@ -29,7 +29,7 @@ categories: React.js
 
 ![image](https://user-images.githubusercontent.com/28949166/149366231-1267a040-b385-4dde-a648-ded4bfd78f6c.png)
 
-- [리액트 용어 정리](https://kyun2da.dev/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/Redux-%EC%A0%95%EB%A6%AC/)
+- [리덕스 용어 정리](https://kyun2da.dev/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/Redux-%EC%A0%95%EB%A6%AC/)
 - Store : 전역으로 공유하는 상태의 저장소. 하나의 어플리케이션에는 하나의 sotre만 존재해야 한다.
 - Action : 객체. 상태에 변화를 일으켜야할 때 이 action을 일으켜야한다.
 - Action Creator : Action 객체를 만들어주는 함수.
