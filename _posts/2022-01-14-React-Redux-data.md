@@ -35,10 +35,10 @@ categories: React.js
 - Action Creator : Action 객체를 만들어주는 함수.
 - Reducer : 현재 상태와 액션 객체를 받아, 필요하다면 새로운 상태를 리턴하는 함수. 액션 유형을 기반으로 이벤트를 처리하는 이벤트 리스너.
 - dispatch : Store의 내장함수. action 객체를 넘겨줘서 상태를 업데이트 할 수 있도록 함. 그리고 이 dispatch를 사용을 해서 store의 상태를 변경해야한다.(반드시! store에 직접 접근해 상태를 변경하면 안된다! - immutable)
-  > vuex의 mutation.
+  > vuex의 mutation과 비슷
 - Subscribe : store의 내장함수. 리스너 함수를 파라미터로 넣어 호출하면 상태가 업데이트될 때마다 호출된다. 일종의 이벤트 리스너.
 - Selector : store의 상태 값을 가져올 때 사용
-  > vuex의 getter?
+  > vuex의 getter과 비슷
 
 ### ⭐ Redux 동작
 
@@ -46,8 +46,8 @@ categories: React.js
 
 - [Redux(리덕스)란? (상태 관리 라이브러리)](https://hanamon.kr/redux%EB%9E%80-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/)
 
-1. user의 행동에 맞는 action 객체(정확하게는 action 객체를 리턴하는 action 생성함수)가 dispatch() 메소드에 전달된다.
-2. dispatch(action)을 통해 reducer가 호출된다.
+1. user의 이벤트에 맞는 action 객체(정확하게는 action 객체를 리턴하는 action 생성함수)가 dispatch() 메소드에 전달된다.
+2. dispatch(action) 메소드를 통해 reducer가 호출된다.
 3. reducer는 새로운 store를 생성하여 저장한다(갈아끼운다.)
 
    ```javascript
