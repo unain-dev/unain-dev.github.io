@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[CS] URL vs URI"
+title: "[Web] URL vs URI"
 # date: 2021-12-10 12:34:43 +0900
-categories: CS
+categories: Web
 ---
 
 ## URL vs URI
