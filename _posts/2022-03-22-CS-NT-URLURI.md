@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS) Item이 Grid를 벗어날 때"
+title: "[CS] URL vs URI"
 # date: 2021-12-10 12:34:43 +0900
 categories: CS
 ---
