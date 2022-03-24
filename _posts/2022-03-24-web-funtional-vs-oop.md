@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "함수형 프로그래밍 vs 객체지향 프로그래밍"
+title: "[Web] 함수형 프로그래밍 vs 객체지향 프로그래밍"
 # date: 2021-12-10 12:34:43 +0900
 categories: Web
 ---
