@@ -2,7 +2,7 @@
 layout: post
 title: "[React] react-thunk 사용하는 이유"
 # date: 2021-12-10 12:34:43 +0900
-categories: Web
+categories: React.js
 ---
 
 ## react-thunk
