@@ -18,17 +18,17 @@ Array.forEach() 는 기본적으로 break 문을 따로 지원하지 않는다.
 - forEach 자체의 return은 undefined 이다.
 - 따라서 리턴으로 break를 걸수가 없어 아예 예외처리를 통해서 예외를 throw하여 강제로 루프문을 벗어나게 하는 방법을 쓴다.
 ```javascript
-var arr = [1,2,3,4,5,6,7,8,9,10];
-try{
-  arr.forEach(function(c){
-    console.log(c);
-    if(c==3) throw new Error("stop loop"); // 에러를 throw하면 강제로 루프에서 벗어나서 catch로 가게 된다.
-  })
-}catch(e){
-    
-} 
+  var arr = [1,2,3,4,5,6,7,8,9,10];
+  try{
+    arr.forEach(function(c){
+      console.log(c);
+      if(c==3) throw new Error("stop loop"); // 에러를 throw하면 강제로 루프에서 벗어나서 catch로 가게 된다.
+    })
+  }catch(e){
 
-// 결과 : 1, 2, 3
+  } 
+
+  // 결과 : 1, 2, 3
 ```
 
 
