@@ -36,6 +36,7 @@ categories: Web
     - 1급 객체
       - 변수나 데이터 구조안에 담을 수 있다.
       - 파라미터로 전달 할 수 있다.
+      
       ```javascript
       // 1급 객체
       const addTwo = (num) => num + 2;
@@ -44,9 +45,11 @@ categories: Web
 
       console.log(transform([1, 2, 3, 4])); // [6, 8, 10, 12]
       ```
+      
     - 고차함수
       - 함수를 인자로써 전달 할 수 있어야 한다.
       - 함수의 반환 값으로 또 다른 함수를 사용 할 수 있다
+      
       ```javascript
       // 고차 함수
       const addInform = (name) => (age) => age + name;
