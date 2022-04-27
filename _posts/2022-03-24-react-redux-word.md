@@ -64,11 +64,12 @@ const loading = (state = initialState, action) => {
   }
 };
 ```
+
 ```javascript
 export const startLoading = () => ({ type: START_LOADING }); // action
 
 ...
-import { useDispatch } from 'react-redux'; // 리덕스 후크 가져오기
+import { useDispatch } from 'react-redux'; // 리덕스 훅 가져오기
 
 dispatch(startLoading());
 ```
