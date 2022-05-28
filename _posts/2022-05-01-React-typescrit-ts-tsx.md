@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "[React] Typescript .ts vs .tsx"
-# date: 2021-12-10 12:34:43 +0900
-categories: React.js
+title: "[Typescript] .ts vs .tsx"
+categories: TypeScript
 ---
 ## .ts vs .tsx
 ### .ts
