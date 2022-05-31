@@ -24,4 +24,4 @@ import Image from "next/image";
 
 
 ## 참고자료 출처
-- [[React] NextJS 에서 이미지 import 하기]([https://localcoder.org/what-is-the-difference-between-ts-and-tsx-extensions-both-are-used-as-extensi](https://velog.io/@pyo-sh/React-NextJS-%EC%97%90%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-import-%ED%95%98%EA%B8%B0)){:target="\_blank"}
+- [[React] NextJS 에서 이미지 import 하기](https://velog.io/@pyo-sh/React-NextJS-%EC%97%90%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-import-%ED%95%98%EA%B8%B0){:target="\_blank"}
