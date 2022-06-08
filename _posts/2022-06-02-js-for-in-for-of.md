@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[JavaScript] for in vs for of"
-categories: ES6
+title: "[JS] for in vs for of"
+categories: JS
 ---
 ## for in vs for of
 - for in : 객체 순환
