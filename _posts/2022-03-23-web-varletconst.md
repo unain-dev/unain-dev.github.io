@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Web] var vs let vs const"
+title: "[JS] var vs let vs const"
 # date: 2021-12-10 12:34:43 +0900
-categories: Web ES6
+categories: Web JS
 ---
 
 ## 변수 선언
