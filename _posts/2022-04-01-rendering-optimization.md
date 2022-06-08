@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Web] 화면 렌터더링 속도를 향상 시킬 수 있는 방법"
+title: "[Web] 화면 렌더링 속도를 향상 시킬 수 있는 방법"
 # date: 2021-12-10 12:34:43 +0900
 categories: Web
 ---
