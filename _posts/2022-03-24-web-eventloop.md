@@ -2,7 +2,7 @@
 layout: post
 title: "JS의 이벤트 루프(Event Loop)"
 # date: 2021-12-10 12:34:43 +0900
-categories: jekyll
+categories: JS
 ---
 
 ![image](https://user-images.githubusercontent.com/28949166/159767964-f8d962f8-331f-4246-8c3d-c70a4d5baede.png)
