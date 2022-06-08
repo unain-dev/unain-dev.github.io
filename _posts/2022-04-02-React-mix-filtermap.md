@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[React] filter와 map의 혼합 사용"
-categories: React.js ES6
+title: "[JS] filter와 map의 혼합 사용"
+categories: JS React.js
 ---
 
 ## 문제 상황
