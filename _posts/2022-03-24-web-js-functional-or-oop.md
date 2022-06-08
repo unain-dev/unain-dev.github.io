@@ -46,6 +46,7 @@ car.moveTo(10);
 
 ## JS에서의 함수형 프로그래밍
 - JS에서의 객체는 1급 객체
+
 ```javascript
 function start(car) {
   car.power = true;
@@ -65,8 +66,8 @@ function moveTo(car, position) {
 const car = { power: false, position: 0 };
 start(car);
 moveTo(car, 10);
-
 ```
+
 > 객체지향에서 제시했던 예제 코드와 달리 객체가 가진 기능을 사용하지 않고 오롯이 함수를 정의하고 함수를 조합함으로써 결과를 만들어냈음을 알 수 있습니다.  
 > Car는 정의하지 않고 JSON 값과 함수를 정의하고 사용할 뿐입니다.
 
