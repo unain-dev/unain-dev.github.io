@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "spread operator vs concat in merge to array"
+title: "[ES6] spread operator vs concat in merge to array"
 date: 2021-12-26 20:34:43 +0900
-categories: ES6
+categories: JS
 ---
 
 ### spread operator vs concat in merge to array
