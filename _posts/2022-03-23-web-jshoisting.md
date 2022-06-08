@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Web] JS Hoisting"
+title: "[JS] Hoisting"
 # date: 2021-12-10 12:34:43 +0900
-categories: Web
+categories: JS
 ---
 
 ## Hoisting
