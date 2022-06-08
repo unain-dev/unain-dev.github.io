@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[ES6] concat vs spread"
+title: "[JS] concat vs spread"
 date: 2021-12-28 17:56:43 +0900
 categories: JS
 ---
