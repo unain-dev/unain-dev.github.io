@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JS의 이벤트 루프(Event Loop)"
+title: "[JS] 이벤트 루프(Event Loop)"
 # date: 2021-12-10 12:34:43 +0900
 categories: JS
 ---
