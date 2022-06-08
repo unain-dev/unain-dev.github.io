@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[ES6] spread operator vs concat in merge to array"
+title: "[JS] spread operator vs concat"
 date: 2021-12-26 20:34:43 +0900
 categories: JS
 ---
